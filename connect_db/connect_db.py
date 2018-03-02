@@ -19,11 +19,7 @@ print conn_string
 
 ##########
 try:
-<<<<<<< HEAD
     conn = psycopg2.connect(conn_string)
-=======
-    conn = psycopg2.connect("dbname='spoyldev' user='' host='spoyllivereaddb.cp1dn78gzqr5.ap-southeast-1.rds.amazonaws.com' password=''")
->>>>>>> 8fc3712b3d182ca1fe49f07394b01f3300e914f8
 except:
     print "I am unable to connect to the database"
 
