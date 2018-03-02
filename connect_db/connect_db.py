@@ -4,7 +4,7 @@
 import psycopg2
 
 try:
-    conn = psycopg2.connect("dbname='spoyldev' user='' host='spoyllivereaddb.cp1dn78gzqr5.ap-southeast-1.rds.amazonaws.com' password='S$tya#1296'")
+    conn = psycopg2.connect("dbname='spoyldev' user='' host='spoyllivereaddb.cp1dn78gzqr5.ap-southeast-1.rds.amazonaws.com' password=''")
 except:
     print "I am unable to connect to the database"
 
