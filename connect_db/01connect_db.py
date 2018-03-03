@@ -21,7 +21,7 @@ except:
     print "I am unable to connect to the database"
 
 cur=conn.cursor()
-cur.execute("""select id,date_created from catalogue_product limit 10""")
+cur.execute("""select current_date""")
 
 rows=cur.fetchall()
 # print rows
